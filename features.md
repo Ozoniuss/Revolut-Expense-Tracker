@@ -1,0 +1,6 @@
+- add expenses during a certain period a time (usually monthly)
+- check that every expense added is in that period
+- find out which part of the expense data is required
+- ensure that json contains all expenses
+- be able to manage expenses from the ui (in case you pay for others and get paid back, it won't be possible to add the expense correctly using the script. this needs to be done manually)
+- a solution for the above

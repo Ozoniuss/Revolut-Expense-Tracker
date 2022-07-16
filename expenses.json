@@ -1,0 +1,3488 @@
+[
+    {
+        "id": "62d2cb58-e80d-a070-9518-dac23eaeeb8c",
+        "legId": "670ed778-732c-46a7-815b-cb787997e131",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657981784942,
+        "updatedDate": 1657981784942,
+        "completedDate": 1657981784942,
+        "createdDate": 1657981784942,
+        "currency": "RON",
+        "amount": -103,
+        "fee": 0,
+        "balance": 15467,
+        "description": "To RON Bani de rontanele",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62d2cb58-b265-aabe-93d0-b89d79ed2806",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "recipient": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d2cb58-e80d-a070-9518-dac23eaeeb8c",
+        "legId": "b210a20f-0e9f-4cb3-91ae-3fecaa75eada",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657981784942,
+        "updatedDate": 1657981784942,
+        "completedDate": 1657981784942,
+        "createdDate": 1657981784942,
+        "currency": "RON",
+        "amount": 103,
+        "fee": 0,
+        "balance": 855,
+        "description": "From RON",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62d2cb58-b265-aabe-93d0-b89d79ed2806",
+        "account": {
+            "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+            "type": "SAVINGS"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "sender": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d2cb58-b265-aabe-93d0-b89d79ed2806",
+        "legId": "60a37c82-2608-471a-ad28-2c06a95d2a10",
+        "type": "CARD_PAYMENT",
+        "state": "PENDING",
+        "startedDate": 1657981784000,
+        "updatedDate": 1657981784756,
+        "createdDate": 1657981784756,
+        "currency": "RON",
+        "amount": -3897,
+        "fee": 0,
+        "description": "Glovo Glovo Prime",
+        "tag": "restaurants",
+        "category": "restaurants",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "countryCode": "RO",
+        "rate": 1,
+        "merchant": {
+            "id": "498750000260290",
+            "merchantId": "0071be41-c2c3-4def-a9d3-cf530fde8977",
+            "scheme": "VISA",
+            "name": "Glovo",
+            "mcc": "5814",
+            "category": "restaurants",
+            "city": "Bucuresti",
+            "country": "RO",
+            "address": "Bucuresti, RO",
+            "state": "RO"
+        },
+        "counterpart": {
+            "amount": -3897,
+            "currency": "RON"
+        },
+        "card": {
+            "id": "0dcc1752-3431-4a54-a696-4a0df9f35481",
+            "lastFour": "4398",
+            "disposable": false,
+            "credit": false,
+            "pro": false
+        },
+        "ratings": {
+            "userRating": 0
+        },
+        "eCommerce": true,
+        "chargebackEligible": true,
+        "localisedDescription": {
+            "key": "transaction.description.card.payment.to.merchant",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Glovo"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d2cb45-c024-a902-91fd-e1974f912314",
+        "legId": "1090c81d-c68a-42f3-a211-56ea8f1ad16a",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657981765275,
+        "updatedDate": 1657981765478,
+        "completedDate": 1657981765478,
+        "createdDate": 1657981765478,
+        "currency": "RON",
+        "amount": 3900,
+        "fee": 0,
+        "balance": 15570,
+        "description": "From Mihai Silinc",
+        "tag": "transfers",
+        "category": "transfers",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "sender": {
+            "id": "83342ea9-4252-49d2-8c99-02fce33d8b6f",
+            "firstName": "Mihai",
+            "lastName": "S",
+            "country": "RO",
+            "code": "mihai0g66",
+            "username": "mihai0g66"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.sender",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Mihai S"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d2ca64-c66c-ace3-8cdb-2878616dc5d8",
+        "legId": "861f52e7-0b62-4988-bce6-7580d5faf74a",
+        "type": "TRANSFER",
+        "state": "DECLINED",
+        "startedDate": 1657981539967,
+        "updatedDate": 1657981540006,
+        "createdDate": 1657981540006,
+        "currency": "RON",
+        "amount": 30000000,
+        "fee": 0,
+        "description": "From Mihai Silinc",
+        "rejectComment": "",
+        "tag": "transfers",
+        "category": "transfers",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [
+            {
+                "type": "FAQ",
+                "payload": {
+                    "key": "question.whys-my-transfer-been-declined"
+                }
+            }
+        ],
+        "moneyRequest": {
+            "id": "f5566602-002a-47e7-a526-cdca988b2e54"
+        },
+        "rate": 1,
+        "sender": {
+            "id": "83342ea9-4252-49d2-8c99-02fce33d8b6f",
+            "firstName": "Mihai",
+            "lastName": "S",
+            "country": "RO",
+            "code": "mihai0g66",
+            "phone": "+40770241798",
+            "username": "mihai0g66"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.money.request.to.sender.declined",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Mihai S"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d27ed9-607a-afc1-a83a-511bac820430",
+        "legId": "ac3eea95-a529-427f-a1d3-cb7f487bbe00",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657962201266,
+        "updatedDate": 1657962201266,
+        "completedDate": 1657962201267,
+        "createdDate": 1657962201266,
+        "currency": "RON",
+        "amount": -1,
+        "fee": 0,
+        "balance": 11670,
+        "description": "To RON Bani de rontanele",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62d27ed9-b254-ad4b-a43a-7b2bb20e0171",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "recipient": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d27ed9-607a-afc1-a83a-511bac820430",
+        "legId": "0de1b45d-26a3-4b7a-8600-cccafa3b71f4",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657962201266,
+        "updatedDate": 1657962201266,
+        "completedDate": 1657962201267,
+        "createdDate": 1657962201266,
+        "currency": "RON",
+        "amount": 1,
+        "fee": 0,
+        "balance": 752,
+        "description": "From RON",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62d27ed9-b254-ad4b-a43a-7b2bb20e0171",
+        "account": {
+            "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+            "type": "SAVINGS"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "sender": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d27ed9-b254-ad4b-a43a-7b2bb20e0171",
+        "legId": "c4b1ee6d-364e-4663-a248-52e0386462ab",
+        "type": "CARD_PAYMENT",
+        "state": "PENDING",
+        "startedDate": 1657962200000,
+        "updatedDate": 1657962201074,
+        "createdDate": 1657962201074,
+        "currency": "RON",
+        "amount": -499,
+        "fee": 0,
+        "description": "bolt.eu/r/2207160903",
+        "tag": "transport",
+        "category": "transport",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "countryCode": "EE",
+        "rate": 1,
+        "merchant": {
+            "id": "498750000949371",
+            "merchantId": "78c23116-39ff-4ebf-a311-344dbc9d507d",
+            "scheme": "VISA",
+            "name": "Bolt",
+            "mcc": "4121",
+            "category": "transport",
+            "city": "Tallinn",
+            "country": "EE",
+            "address": "Tallinn, EE",
+            "state": "EE"
+        },
+        "counterpart": {
+            "amount": -499,
+            "currency": "RON"
+        },
+        "card": {
+            "id": "0dcc1752-3431-4a54-a696-4a0df9f35481",
+            "lastFour": "4398",
+            "disposable": false,
+            "credit": false,
+            "pro": false
+        },
+        "ratings": {
+            "userRating": 0
+        },
+        "eCommerce": true,
+        "chargebackEligible": true,
+        "localisedDescription": {
+            "key": "transaction.description.card.payment.to.merchant",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bolt"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d1f4d7-afb2-aa4f-8378-342ddfa4711b",
+        "legId": "1dba070b-3592-469d-b010-15e91b4ac65f",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657926871376,
+        "updatedDate": 1657926871376,
+        "completedDate": 1657926871376,
+        "createdDate": 1657926871376,
+        "currency": "RON",
+        "amount": -261,
+        "fee": 0,
+        "balance": 11671,
+        "description": "To RON Bani de rontanele",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62d1f4d7-e0dc-af90-a19d-4546665a7906",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "recipient": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d1f4d7-afb2-aa4f-8378-342ddfa4711b",
+        "legId": "d934e52a-55a4-4e98-afef-6df452d3119c",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657926871376,
+        "updatedDate": 1657926871376,
+        "completedDate": 1657926871376,
+        "createdDate": 1657926871376,
+        "currency": "RON",
+        "amount": 261,
+        "fee": 0,
+        "balance": 751,
+        "description": "From RON",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62d1f4d7-e0dc-af90-a19d-4546665a7906",
+        "account": {
+            "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+            "type": "SAVINGS"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "sender": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d1f4d7-e0dc-af90-a19d-4546665a7906",
+        "legId": "98628707-0cfd-476f-afcc-818e3d9ed821",
+        "type": "CARD_PAYMENT",
+        "state": "PENDING",
+        "startedDate": 1657926871000,
+        "updatedDate": 1657926871312,
+        "createdDate": 1657926871312,
+        "currency": "RON",
+        "amount": -239,
+        "fee": 0,
+        "description": "bolt.eu/r/2207152314",
+        "tag": "transport",
+        "category": "transport",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "countryCode": "EE",
+        "rate": 1,
+        "merchant": {
+            "id": "498750000949371",
+            "merchantId": "78c23116-39ff-4ebf-a311-344dbc9d507d",
+            "scheme": "VISA",
+            "name": "Bolt",
+            "mcc": "4121",
+            "category": "transport",
+            "city": "Tallinn",
+            "country": "EE",
+            "address": "Tallinn, EE",
+            "state": "EE"
+        },
+        "counterpart": {
+            "amount": -239,
+            "currency": "RON"
+        },
+        "card": {
+            "id": "0dcc1752-3431-4a54-a696-4a0df9f35481",
+            "lastFour": "4398",
+            "disposable": false,
+            "credit": false,
+            "pro": false
+        },
+        "ratings": {
+            "userRating": 0
+        },
+        "eCommerce": true,
+        "chargebackEligible": true,
+        "localisedDescription": {
+            "key": "transaction.description.card.payment.to.merchant",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bolt"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d1e7e5-46b1-a393-b31f-048545759dd4",
+        "legId": "98464d94-2436-4bdb-afcf-60ab205c5384",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657923557265,
+        "updatedDate": 1657923557698,
+        "completedDate": 1657923557698,
+        "createdDate": 1657923557698,
+        "currency": "RON",
+        "amount": 1800,
+        "fee": 0,
+        "balance": 11932,
+        "description": "From Tudor Nicolaescu",
+        "comment": "Ms",
+        "tag": "transfers",
+        "category": "transfers",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "sender": {
+            "id": "cf9f5985-529c-4610-b5b0-3013383ce60e",
+            "firstName": "Tudor",
+            "lastName": "N",
+            "country": "RO",
+            "code": "tudor1wet",
+            "username": "tudornico"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.sender",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Tudor N"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d1e7d6-f29f-a4b1-908a-c56bc16ff575",
+        "legId": "84a58869-4d81-480a-b5a5-ac09d1347c2e",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657923542118,
+        "updatedDate": 1657923542118,
+        "completedDate": 1657923542118,
+        "createdDate": 1657923542118,
+        "currency": "RON",
+        "amount": -100,
+        "fee": 0,
+        "balance": 10132,
+        "description": "To RON Bani de rontanele",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62d1e7d6-11f1-ab86-b1c7-d4cce243c2f6",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "recipient": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d1e7d6-f29f-a4b1-908a-c56bc16ff575",
+        "legId": "c93280b8-f8e9-498b-9352-7fb3b7453ea5",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657923542118,
+        "updatedDate": 1657923542118,
+        "completedDate": 1657923542118,
+        "createdDate": 1657923542118,
+        "currency": "RON",
+        "amount": 100,
+        "fee": 0,
+        "balance": 490,
+        "description": "From RON",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62d1e7d6-11f1-ab86-b1c7-d4cce243c2f6",
+        "account": {
+            "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+            "type": "SAVINGS"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "sender": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d1e7d6-11f1-ab86-b1c7-d4cce243c2f6",
+        "legId": "6c7024ae-4c81-4504-b376-b87bde1327d6",
+        "type": "CARD_PAYMENT",
+        "state": "PENDING",
+        "startedDate": 1657923541000,
+        "updatedDate": 1657923542028,
+        "createdDate": 1657923542028,
+        "currency": "RON",
+        "amount": -8900,
+        "fee": 0,
+        "description": "The Soviet",
+        "tag": "restaurants",
+        "category": "restaurants",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "countryCode": "RO",
+        "rate": 1,
+        "merchant": {
+            "id": "28350978232",
+            "merchantId": "e1e19f94-00d5-48b8-939e-5be7b1c29456",
+            "scheme": "VISA",
+            "name": "The Soviet",
+            "mcc": "5813",
+            "category": "restaurants",
+            "city": "Cluj Napoca",
+            "country": "RO",
+            "address": "Cluj Napoca, RO",
+            "state": "RO"
+        },
+        "counterpart": {
+            "amount": -8900,
+            "currency": "RON"
+        },
+        "card": {
+            "id": "0dcc1752-3431-4a54-a696-4a0df9f35481",
+            "lastFour": "4398",
+            "disposable": false,
+            "credit": false,
+            "pro": false
+        },
+        "ratings": {
+            "userRating": 0
+        },
+        "chargebackEligible": true,
+        "localisedDescription": {
+            "key": "transaction.description.card.payment.to.merchant",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "The Soviet"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d1e7c2-8b0f-a4ba-a6f9-fb4dd6528974",
+        "legId": "8d8bce0e-f761-46b3-b879-e52a76a36065",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657923522306,
+        "updatedDate": 1657923522306,
+        "completedDate": 1657923522307,
+        "createdDate": 1657923522306,
+        "currency": "RON",
+        "amount": -5000,
+        "fee": 0,
+        "balance": 0,
+        "description": "To RON",
+        "tag": "savings",
+        "category": "savings",
+        "account": {
+            "id": "b1a8083c-649d-421a-80ad-c91c988af8a1",
+            "type": "SAVINGS"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "recipient": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "vault": {
+            "id": "bc5eb822-334e-4125-9d97-1549f193c358"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "All mone"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d1e7c2-8b0f-a4ba-a6f9-fb4dd6528974",
+        "legId": "e585bed2-6678-442d-9c37-bbde1860494d",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657923522306,
+        "updatedDate": 1657923522306,
+        "completedDate": 1657923522307,
+        "createdDate": 1657923522306,
+        "currency": "RON",
+        "amount": 5000,
+        "fee": 0,
+        "balance": 10232,
+        "description": "From RON All mone",
+        "tag": "savings",
+        "category": "savings",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "sender": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "b1a8083c-649d-421a-80ad-c91c988af8a1",
+                "type": "SAVINGS"
+            }
+        },
+        "vault": {
+            "id": "bc5eb822-334e-4125-9d97-1549f193c358"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "All mone"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d1e730-6c7d-a42c-9618-a4cee7222231",
+        "legId": "43b7465b-2ec4-46ee-be65-04b81ebafa33",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657923376429,
+        "updatedDate": 1657923376470,
+        "completedDate": 1657923376470,
+        "createdDate": 1657923376470,
+        "currency": "RON",
+        "amount": 2000,
+        "fee": 0,
+        "balance": 5232,
+        "description": "From Călin-George Pop",
+        "tag": "transfers",
+        "category": "transfers",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "sender": {
+            "id": "b73c2e40-60e6-4a14-844c-16f3372005b9",
+            "firstName": "Călin-George",
+            "lastName": "P",
+            "country": "RO",
+            "code": "clingev6ky",
+            "username": "clingev6ky"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.sender",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Călin-George P"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d1c822-f8b6-ac86-948e-aca44619fc2f",
+        "legId": "5e4ca84b-4a0a-4b48-9b55-f782c500781d",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657915426532,
+        "updatedDate": 1657915426701,
+        "completedDate": 1657915426698,
+        "createdDate": 1657915426532,
+        "currency": "RON",
+        "amount": -1000,
+        "fee": 0,
+        "balance": 3232,
+        "description": "To Iulia Maria Ilies",
+        "tag": "transfers",
+        "category": "transfers",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "recipient": {
+            "id": "bd27b6fc-26c3-4035-ae19-b02143c4022f",
+            "firstName": "Iulia Maria",
+            "lastName": "I",
+            "country": "RO",
+            "code": "iuliam6435",
+            "username": "iuliam6435",
+            "account": {
+                "id": "8222c7d7-8a88-4bdc-b6d4-c2f0d9e90825",
+                "type": "CURRENT"
+            }
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.recipient",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Iulia Maria I"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d1c70a-0a2d-a1f6-af2c-aa73ae0e7698",
+        "legId": "d24d1ed4-8c74-48a1-9716-5a0eb4343e40",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657915146977,
+        "updatedDate": 1657915147159,
+        "completedDate": 1657915147155,
+        "createdDate": 1657915146977,
+        "currency": "RON",
+        "amount": -1500,
+        "fee": 0,
+        "balance": 4232,
+        "description": "To Iulia Maria Ilies",
+        "tag": "transfers",
+        "category": "transfers",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "recipient": {
+            "id": "bd27b6fc-26c3-4035-ae19-b02143c4022f",
+            "firstName": "Iulia Maria",
+            "lastName": "I",
+            "country": "RO",
+            "code": "iuliam6435",
+            "username": "iuliam6435",
+            "account": {
+                "id": "8222c7d7-8a88-4bdc-b6d4-c2f0d9e90825",
+                "type": "CURRENT"
+            }
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.recipient",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Iulia Maria I"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d1c6f7-784b-a02c-b286-d976f6a96049",
+        "legId": "f0a3372f-a12d-4a7c-b09a-44e12bdb1041",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657915127331,
+        "updatedDate": 1657915127331,
+        "completedDate": 1657915127331,
+        "createdDate": 1657915127331,
+        "currency": "RON",
+        "amount": -5000,
+        "fee": 0,
+        "balance": 5000,
+        "description": "To RON",
+        "tag": "savings",
+        "category": "savings",
+        "account": {
+            "id": "b1a8083c-649d-421a-80ad-c91c988af8a1",
+            "type": "SAVINGS"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "recipient": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "vault": {
+            "id": "bc5eb822-334e-4125-9d97-1549f193c358"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "All mone"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d1c6f7-784b-a02c-b286-d976f6a96049",
+        "legId": "0a3807b1-4b6a-43ab-ac86-f01f74fe797a",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657915127331,
+        "updatedDate": 1657915127331,
+        "completedDate": 1657915127331,
+        "createdDate": 1657915127331,
+        "currency": "RON",
+        "amount": 5000,
+        "fee": 0,
+        "balance": 5732,
+        "description": "From RON All mone",
+        "tag": "savings",
+        "category": "savings",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "sender": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "b1a8083c-649d-421a-80ad-c91c988af8a1",
+                "type": "SAVINGS"
+            }
+        },
+        "vault": {
+            "id": "bc5eb822-334e-4125-9d97-1549f193c358"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "All mone"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d05f47-895b-a580-8d48-00e150810bc0",
+        "legId": "6493a5f4-a189-451d-a638-7face1334781",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657823047423,
+        "updatedDate": 1657823047423,
+        "completedDate": 1657823047423,
+        "createdDate": 1657823047423,
+        "currency": "RON",
+        "amount": -364,
+        "fee": 0,
+        "balance": 3088,
+        "description": "To RON Bani de rontanele",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62d05f47-5ff6-aa73-9629-cbd6321db532",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "recipient": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d05f47-895b-a580-8d48-00e150810bc0",
+        "legId": "f3acac60-73ec-4fcf-baea-0f3a522055f4",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657823047423,
+        "updatedDate": 1657823047423,
+        "completedDate": 1657823047423,
+        "createdDate": 1657823047423,
+        "currency": "RON",
+        "amount": 364,
+        "fee": 0,
+        "balance": 390,
+        "description": "From RON",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62d05f47-5ff6-aa73-9629-cbd6321db532",
+        "account": {
+            "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+            "type": "SAVINGS"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "sender": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d05f47-5ff6-aa73-9629-cbd6321db532",
+        "legId": "f59451a6-da88-431c-a51a-2c85a1633c88",
+        "type": "CARD_PAYMENT",
+        "state": "COMPLETED",
+        "startedDate": 1657823047000,
+        "updatedDate": 1657912505777,
+        "completedDate": 1657912505774,
+        "createdDate": 1657823047334,
+        "currency": "RON",
+        "amount": -2136,
+        "fee": 0,
+        "balance": 732,
+        "description": "Auchan 0941 Vivido C",
+        "tag": "groceries",
+        "category": "groceries",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "countryCode": "RO",
+        "rate": 1,
+        "merchant": {
+            "id": "3153203056",
+            "merchantId": "b6fe4b42-8065-43b8-a54e-1f4ea14c4bc6",
+            "scheme": "VISA",
+            "name": "Auchan Iris",
+            "mcc": "5411",
+            "category": "groceries",
+            "city": "Cluj-Napoca",
+            "country": "RO",
+            "address": "Bulevardul Muncii, 15, 400641, Cluj-Napoca, RO",
+            "state": "RO",
+            "postcode": "400641",
+            "logo": "https://storage.googleapis.com/revolut-prod-apps_merchant-logo/auchan.ro"
+        },
+        "counterpart": {
+            "amount": -2136,
+            "currency": "RON"
+        },
+        "card": {
+            "id": "0dcc1752-3431-4a54-a696-4a0df9f35481",
+            "lastFour": "4398",
+            "disposable": false,
+            "credit": false,
+            "pro": false
+        },
+        "ratings": {
+            "userRating": 0
+        },
+        "chargebackEligible": true,
+        "localisedDescription": {
+            "key": "transaction.description.card.payment.to.merchant",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Auchan Iris"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d05f16-da2d-a61d-97a0-230bee9b02f2",
+        "legId": "f8b98dc7-4d45-4bc4-909b-47b12cae0a59",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657822998275,
+        "updatedDate": 1657822998275,
+        "completedDate": 1657822998276,
+        "createdDate": 1657822998275,
+        "currency": "RON",
+        "amount": -1300,
+        "fee": 0,
+        "balance": 26,
+        "description": "To RON",
+        "tag": "savings",
+        "category": "savings",
+        "account": {
+            "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+            "type": "SAVINGS"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "recipient": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62d05f16-da2d-a61d-97a0-230bee9b02f2",
+        "legId": "cd7e4427-ab19-4157-bede-dcee4371e628",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657822998275,
+        "updatedDate": 1657822998275,
+        "completedDate": 1657822998276,
+        "createdDate": 1657822998275,
+        "currency": "RON",
+        "amount": 1300,
+        "fee": 0,
+        "balance": 3452,
+        "description": "From RON Bani de rontanele",
+        "tag": "savings",
+        "category": "savings",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "sender": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cef116-7de0-a0a6-8bcb-66d2f420cfc3",
+        "legId": "8f77f7f1-e6d6-4dd1-83dc-c4b0522ffe07",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657729302116,
+        "updatedDate": 1657729302275,
+        "completedDate": 1657729302271,
+        "createdDate": 1657729302116,
+        "currency": "RON",
+        "amount": -1534,
+        "fee": 0,
+        "balance": 16526,
+        "description": "To Andrei-Raul Pavel",
+        "comment": "For Uber",
+        "tag": "transfers",
+        "category": "transfers",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "moneyRequest": {
+            "id": "832016c0-b9f0-46ee-bf7a-bb02dd3026de"
+        },
+        "rate": 1,
+        "recipient": {
+            "id": "f6892f2a-98f2-4f13-a734-eb16402c560c",
+            "firstName": "Andrei-Raul",
+            "lastName": "P",
+            "country": "RO",
+            "code": "andrei6jcb",
+            "username": "andrei6jcb",
+            "account": {
+                "id": "8d0dd579-699d-4a41-bcf2-e6bffc89a0e5",
+                "type": "CURRENT"
+            }
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.recipient",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Andrei-Raul P"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62ce6383-3d1b-a5da-96bc-20319c1713c4",
+        "legId": "9cc92e6a-ede5-462a-83d9-6c02c46ae7e8",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657693059404,
+        "updatedDate": 1657693059404,
+        "completedDate": 1657693059404,
+        "createdDate": 1657693059404,
+        "currency": "RON",
+        "amount": -280,
+        "fee": 0,
+        "balance": 18060,
+        "description": "To RON Bani de rontanele",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62ce6383-bd15-a42c-8d7c-9afab7073d78",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "recipient": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62ce6383-3d1b-a5da-96bc-20319c1713c4",
+        "legId": "2d2d9620-f73a-4f83-9d18-010f308a6183",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657693059404,
+        "updatedDate": 1657693059404,
+        "completedDate": 1657693059404,
+        "createdDate": 1657693059404,
+        "currency": "RON",
+        "amount": 280,
+        "fee": 0,
+        "balance": 1326,
+        "description": "From RON",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62ce6383-bd15-a42c-8d7c-9afab7073d78",
+        "account": {
+            "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+            "type": "SAVINGS"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "sender": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62ce6383-bd15-a42c-8d7c-9afab7073d78",
+        "legId": "4c328e7c-9fd2-4284-a006-1e8a14b8dd8f",
+        "type": "CARD_PAYMENT",
+        "state": "COMPLETED",
+        "startedDate": 1657693059000,
+        "updatedDate": 1657823317723,
+        "completedDate": 1657823317719,
+        "createdDate": 1657693059290,
+        "currency": "RON",
+        "amount": -220,
+        "fee": 0,
+        "balance": 2868,
+        "description": "bolt.eu/r/2207130617",
+        "tag": "transport",
+        "category": "transport",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "countryCode": "EE",
+        "rate": 1,
+        "merchant": {
+            "id": "498750000949371",
+            "merchantId": "78c23116-39ff-4ebf-a311-344dbc9d507d",
+            "scheme": "VISA",
+            "name": "Bolt",
+            "mcc": "4121",
+            "category": "transport",
+            "city": "Tallinn",
+            "country": "EE",
+            "address": "Tallinn, EE",
+            "state": "EE"
+        },
+        "counterpart": {
+            "amount": -220,
+            "currency": "RON"
+        },
+        "card": {
+            "id": "0dcc1752-3431-4a54-a696-4a0df9f35481",
+            "lastFour": "4398",
+            "disposable": false,
+            "credit": false,
+            "pro": false
+        },
+        "ratings": {
+            "userRating": 0
+        },
+        "eCommerce": true,
+        "chargebackEligible": true,
+        "localisedDescription": {
+            "key": "transaction.description.card.payment.to.merchant",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bolt"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cdb942-92f4-ac47-a95c-686463580a48",
+        "legId": "aebd2b92-4d24-4ed5-bed9-7214e2a798e1",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657649474391,
+        "updatedDate": 1657649474391,
+        "completedDate": 1657649474392,
+        "createdDate": 1657649474391,
+        "currency": "RON",
+        "amount": -376,
+        "fee": 0,
+        "balance": 24788,
+        "description": "To RON Bani de rontanele",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62cdb942-e61a-a2ac-acc5-c196d420f8d5",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "recipient": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cdb942-92f4-ac47-a95c-686463580a48",
+        "legId": "4b1fdb18-8c9b-46b6-b949-5269571461e6",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657649474391,
+        "updatedDate": 1657649474391,
+        "completedDate": 1657649474392,
+        "createdDate": 1657649474391,
+        "currency": "RON",
+        "amount": 376,
+        "fee": 0,
+        "balance": 1046,
+        "description": "From RON",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62cdb942-e61a-a2ac-acc5-c196d420f8d5",
+        "account": {
+            "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+            "type": "SAVINGS"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "sender": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cdb942-e61a-a2ac-acc5-c196d420f8d5",
+        "legId": "94374990-74df-4bda-b0d3-924a2d942b00",
+        "type": "CARD_PAYMENT",
+        "state": "COMPLETED",
+        "startedDate": 1657649473000,
+        "updatedDate": 1657762661863,
+        "completedDate": 1657762661861,
+        "createdDate": 1657649474129,
+        "currency": "RON",
+        "amount": -11624,
+        "fee": 0,
+        "balance": 4902,
+        "description": "Lidl Ro-922",
+        "tag": "groceries",
+        "category": "groceries",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "countryCode": "RO",
+        "rate": 1,
+        "merchant": {
+            "id": "90110922",
+            "merchantId": "eff4b79d-54a2-49af-94f6-c53ce51dd7d6",
+            "scheme": "VISA",
+            "name": "Lidl Ro 0922",
+            "mcc": "5411",
+            "category": "groceries",
+            "city": "Cluj Napoca",
+            "country": "RO",
+            "address": "40060, Cluj Napoca, RO",
+            "state": "RO",
+            "postcode": "40060"
+        },
+        "counterpart": {
+            "amount": -11624,
+            "currency": "RON"
+        },
+        "card": {
+            "id": "0dcc1752-3431-4a54-a696-4a0df9f35481",
+            "lastFour": "4398",
+            "disposable": false,
+            "credit": false,
+            "pro": false
+        },
+        "ratings": {
+            "userRating": 0
+        },
+        "chargebackEligible": true,
+        "localisedDescription": {
+            "key": "transaction.description.card.payment.to.merchant",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Lidl Ro 0922"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cdb187-166f-ac1a-a203-91ba95cc39e0",
+        "legId": "f0444ac7-03cb-414c-8251-df498ce0a780",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657647495157,
+        "updatedDate": 1657647495157,
+        "completedDate": 1657647495157,
+        "createdDate": 1657647495157,
+        "currency": "RON",
+        "amount": -15000,
+        "fee": 0,
+        "balance": 10000,
+        "description": "To RON",
+        "tag": "savings",
+        "category": "savings",
+        "account": {
+            "id": "b1a8083c-649d-421a-80ad-c91c988af8a1",
+            "type": "SAVINGS"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "recipient": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "vault": {
+            "id": "bc5eb822-334e-4125-9d97-1549f193c358"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "All mone"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cdb187-166f-ac1a-a203-91ba95cc39e0",
+        "legId": "6a5eff43-6851-42d4-813d-6cc0985036c5",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657647495157,
+        "updatedDate": 1657647495157,
+        "completedDate": 1657647495157,
+        "createdDate": 1657647495157,
+        "currency": "RON",
+        "amount": 15000,
+        "fee": 0,
+        "balance": 25164,
+        "description": "From RON All mone",
+        "tag": "savings",
+        "category": "savings",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "sender": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "b1a8083c-649d-421a-80ad-c91c988af8a1",
+                "type": "SAVINGS"
+            }
+        },
+        "vault": {
+            "id": "bc5eb822-334e-4125-9d97-1549f193c358"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "All mone"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cd5d4e-f9a7-aa80-996a-24b38516f94f",
+        "legId": "e2b9e3fd-9f4f-4699-bdf5-b863c34417d1",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657625934902,
+        "updatedDate": 1657625951804,
+        "completedDate": 1657625951800,
+        "createdDate": 1657625934902,
+        "currency": "RON",
+        "amount": -69200,
+        "fee": 0,
+        "balance": 11244,
+        "description": "To Gerőcz Klára",
+        "comment": "Chirie Iulie Mihai",
+        "tag": "transfers",
+        "category": "transfers",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "countryCode": "RO",
+        "rate": 1,
+        "beneficiary": {
+            "id": "a1e10251-7b8b-43f4-babc-72e765069648",
+            "country": "RO",
+            "logo": "https://assets.revolut.com/bank-logos/OTPVROBU.png"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.transfer.to.beneficiary",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Gerőcz Klára"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cd5cf5-cd9a-abef-b549-10cc5e1cc08e",
+        "legId": "0a87a2c5-87cd-43a6-876e-122ef0826c35",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657625845023,
+        "updatedDate": 1657625845023,
+        "completedDate": 1657625845023,
+        "createdDate": 1657625845023,
+        "currency": "RON",
+        "amount": -250,
+        "fee": 0,
+        "balance": 80444,
+        "description": "To RON Bani de rontanele",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62cd5cf3-e582-af04-a205-f7c5dfbf3e4a",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "recipient": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cd5cf5-cd9a-abef-b549-10cc5e1cc08e",
+        "legId": "02a7285b-4705-4101-89fb-4e28b3ffce38",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657625845023,
+        "updatedDate": 1657625845023,
+        "completedDate": 1657625845023,
+        "createdDate": 1657625845023,
+        "currency": "RON",
+        "amount": 250,
+        "fee": 0,
+        "balance": 670,
+        "description": "From RON",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62cd5cf3-e582-af04-a205-f7c5dfbf3e4a",
+        "account": {
+            "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+            "type": "SAVINGS"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "sender": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cd5cf3-e582-af04-a205-f7c5dfbf3e4a",
+        "legId": "bf05688c-6b0e-4ce6-887a-78cc61c16d66",
+        "type": "CARD_PAYMENT",
+        "state": "COMPLETED",
+        "startedDate": 1657625843000,
+        "updatedDate": 1657765857226,
+        "completedDate": 1657765857220,
+        "createdDate": 1657625843858,
+        "currency": "RON",
+        "amount": -2750,
+        "fee": 0,
+        "balance": 2152,
+        "description": "Delaf Impex Srl",
+        "tag": "restaurants",
+        "category": "restaurants",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "countryCode": "RO",
+        "rate": 1,
+        "merchant": {
+            "id": "63821004",
+            "merchantId": "6cca9ac2-9e89-4d25-8e1f-a3ca3a074a8d",
+            "scheme": "VISA",
+            "name": "Delaf Impex Srl",
+            "mcc": "5812",
+            "category": "restaurants",
+            "city": "Cluj-napoca",
+            "country": "RO",
+            "address": "00000, Cluj-napoca, RO",
+            "state": "RO",
+            "postcode": "00000"
+        },
+        "counterpart": {
+            "amount": -2750,
+            "currency": "RON"
+        },
+        "card": {
+            "id": "0dcc1752-3431-4a54-a696-4a0df9f35481",
+            "lastFour": "4398",
+            "disposable": false,
+            "credit": false,
+            "pro": false
+        },
+        "ratings": {
+            "userRating": 0
+        },
+        "chargebackEligible": true,
+        "localisedDescription": {
+            "key": "transaction.description.card.payment.to.merchant",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Delaf Impex Srl"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cd5bcc-36f0-a3a5-a7a4-9a6b087d4a3a",
+        "legId": "3e45051a-24e3-4ef9-ba9f-255ecbf07f80",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657625548003,
+        "updatedDate": 1657625548163,
+        "completedDate": 1657625548164,
+        "createdDate": 1657625548163,
+        "currency": "RON",
+        "amount": 69200,
+        "fee": 0,
+        "balance": 80694,
+        "description": "From Mihai Silinc",
+        "tag": "transfers",
+        "category": "transfers",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "sender": {
+            "id": "83342ea9-4252-49d2-8c99-02fce33d8b6f",
+            "firstName": "Mihai",
+            "lastName": "S",
+            "country": "RO",
+            "code": "mihai0g66",
+            "username": "mihai0g66"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.sender",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Mihai S"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cd5a85-a258-a0ef-81bd-8a788624c065",
+        "legId": "a65968a8-93d6-4cac-8250-f5ca55aa5d40",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657625221373,
+        "updatedDate": 1657625221373,
+        "completedDate": 1657625221373,
+        "createdDate": 1657625221373,
+        "currency": "RON",
+        "amount": -25000,
+        "fee": 0,
+        "balance": 11494,
+        "description": "To RON All mone",
+        "tag": "savings",
+        "category": "savings",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "recipient": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "b1a8083c-649d-421a-80ad-c91c988af8a1",
+                "type": "SAVINGS"
+            }
+        },
+        "vault": {
+            "id": "bc5eb822-334e-4125-9d97-1549f193c358"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "All mone"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cd5a85-a258-a0ef-81bd-8a788624c065",
+        "legId": "43bb9fed-35c6-45ca-97cf-a2a283fc85fb",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657625221373,
+        "updatedDate": 1657625221373,
+        "completedDate": 1657625221373,
+        "createdDate": 1657625221373,
+        "currency": "RON",
+        "amount": 25000,
+        "fee": 0,
+        "balance": 25000,
+        "description": "From RON",
+        "tag": "savings",
+        "category": "savings",
+        "account": {
+            "id": "b1a8083c-649d-421a-80ad-c91c988af8a1",
+            "type": "SAVINGS"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "sender": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "vault": {
+            "id": "bc5eb822-334e-4125-9d97-1549f193c358"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "All mone"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cd5a17-f541-ac9e-85a0-916a8686aa79",
+        "legId": "972e8b52-0cb1-4850-95fb-60f4192f81ea",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657625111477,
+        "updatedDate": 1657625111654,
+        "completedDate": 1657625111650,
+        "createdDate": 1657625111477,
+        "currency": "RON",
+        "amount": -600,
+        "fee": 0,
+        "balance": 36494,
+        "description": "To Patrick George Szeleczki",
+        "comment": "For Revital",
+        "tag": "transfers",
+        "category": "transfers",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "moneyRequest": {
+            "id": "8d150423-1069-41c0-b109-daaddc981ae0"
+        },
+        "rate": 1,
+        "recipient": {
+            "id": "3197d192-0291-42b4-a763-d7207b263175",
+            "firstName": "Patrick George",
+            "lastName": "S",
+            "country": "RO",
+            "code": "patricg2g5",
+            "username": "patricg2g5",
+            "account": {
+                "id": "d877d09c-ec69-41fa-a195-28f2acd79377",
+                "type": "CURRENT"
+            }
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.recipient",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Patrick George S"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cd59e3-05d8-af6b-8442-9c7d498afbe5",
+        "legId": "fcca72f7-7478-4065-83e9-5514bfbdf813",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657625059320,
+        "updatedDate": 1657625073920,
+        "completedDate": 1657625073916,
+        "createdDate": 1657625059320,
+        "currency": "RON",
+        "amount": -69200,
+        "fee": 0,
+        "balance": 37094,
+        "description": "To Gerőcz Klára",
+        "comment": "Chirie Iulie",
+        "tag": "transfers",
+        "category": "transfers",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "countryCode": "RO",
+        "rate": 1,
+        "beneficiary": {
+            "id": "a1e10251-7b8b-43f4-babc-72e765069648",
+            "country": "RO",
+            "logo": "https://assets.revolut.com/bank-logos/OTPVROBU.png"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.transfer.to.beneficiary",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Gerőcz Klára"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cd599d-cf20-a6a1-bc34-108ae20c429d",
+        "legId": "55309f35-baec-4d18-9c7c-50a61a796e1b",
+        "type": "EXCHANGE",
+        "state": "COMPLETED",
+        "startedDate": 1657624989605,
+        "updatedDate": 1657624989605,
+        "completedDate": 1657624989605,
+        "createdDate": 1657624989605,
+        "currency": "EUR",
+        "amount": -20000,
+        "fee": 0,
+        "feeBreakdownId": "TXN:62cd599d-cf20-a6a1-bc34-108ae20c429d",
+        "balance": 10000,
+        "description": "Exchanged to RON",
+        "tag": "general",
+        "category": "general",
+        "account": {
+            "id": "173055e0-b826-495f-b409-5326a9dc7754",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "rate": 4.93648162839,
+        "direction": "sell",
+        "counterpart": {
+            "amount": 98729,
+            "currency": "RON",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.exchange.to.pocket",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "RON"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cd599d-cf20-a6a1-bc34-108ae20c429d",
+        "legId": "45c2b1a1-480e-496e-98b1-c4b0ceb4cfd0",
+        "type": "EXCHANGE",
+        "state": "COMPLETED",
+        "startedDate": 1657624989605,
+        "updatedDate": 1657624989605,
+        "completedDate": 1657624989605,
+        "createdDate": 1657624989605,
+        "currency": "RON",
+        "amount": 98729,
+        "fee": 0,
+        "feeBreakdownId": "TXN:62cd599d-cf20-a6a1-bc34-108ae20c429d",
+        "balance": 106294,
+        "description": "Exchanged from EUR",
+        "tag": "general",
+        "category": "general",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "rate": 0.20257342684,
+        "direction": "buy",
+        "counterpart": {
+            "amount": -20000,
+            "currency": "EUR",
+            "account": {
+                "id": "173055e0-b826-495f-b409-5326a9dc7754",
+                "type": "CURRENT"
+            }
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.exchange.from.pocket",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "EUR"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cbdaba-7e46-a721-84d4-1dfdaeb86038",
+        "legId": "f06b9c28-4b6e-49b2-8a2d-f667dc679646",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657526970521,
+        "updatedDate": 1657526970521,
+        "completedDate": 1657526970521,
+        "createdDate": 1657526970521,
+        "currency": "RON",
+        "amount": -420,
+        "fee": 0,
+        "balance": 20862,
+        "description": "To RON Bani de rontanele",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62cbdaba-7680-a7de-9bdf-03e131c24dfe",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "recipient": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cbdaba-7e46-a721-84d4-1dfdaeb86038",
+        "legId": "00f43b3f-180d-408e-bfe9-35c53947224b",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657526970521,
+        "updatedDate": 1657526970521,
+        "completedDate": 1657526970521,
+        "createdDate": 1657526970521,
+        "currency": "RON",
+        "amount": 420,
+        "fee": 0,
+        "balance": 420,
+        "description": "From RON",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62cbdaba-7680-a7de-9bdf-03e131c24dfe",
+        "account": {
+            "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+            "type": "SAVINGS"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "sender": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cbdaba-7680-a7de-9bdf-03e131c24dfe",
+        "legId": "d0da35d6-3135-4aed-b8db-1bb105e5c148",
+        "type": "CARD_PAYMENT",
+        "state": "COMPLETED",
+        "startedDate": 1657526970000,
+        "updatedDate": 1657642768583,
+        "completedDate": 1657642768582,
+        "createdDate": 1657526970394,
+        "currency": "RON",
+        "amount": -1080,
+        "fee": 0,
+        "balance": 10164,
+        "description": "bolt.eu/cardcheck",
+        "tag": "transport",
+        "category": "transport",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "countryCode": "EE",
+        "rate": 1,
+        "merchant": {
+            "id": "498750000949371",
+            "merchantId": "78c23116-39ff-4ebf-a311-344dbc9d507d",
+            "scheme": "VISA",
+            "name": "Bolt",
+            "mcc": "4121",
+            "category": "transport",
+            "city": "Tallinn",
+            "country": "EE",
+            "address": "Tallinn, EE",
+            "state": "EE"
+        },
+        "counterpart": {
+            "amount": -1080,
+            "currency": "RON"
+        },
+        "card": {
+            "id": "0dcc1752-3431-4a54-a696-4a0df9f35481",
+            "lastFour": "4398",
+            "disposable": false,
+            "credit": false,
+            "pro": false
+        },
+        "ratings": {
+            "userRating": 0
+        },
+        "eCommerce": true,
+        "chargebackEligible": true,
+        "localisedDescription": {
+            "key": "transaction.description.card.payment.to.merchant",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bolt"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cbdaaf-898b-a9bc-ab8d-c68fc64e4cc5",
+        "legId": "06e81cbc-67ff-40fc-bd96-960dbd6def44",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657526959775,
+        "updatedDate": 1657526959906,
+        "completedDate": 1657526959906,
+        "createdDate": 1657526959906,
+        "currency": "RON",
+        "amount": 1500,
+        "fee": 0,
+        "balance": 21282,
+        "description": "From Iulia Maria Ilies",
+        "tag": "transfers",
+        "category": "transfers",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "sender": {
+            "id": "bd27b6fc-26c3-4035-ae19-b02143c4022f",
+            "firstName": "Iulia Maria",
+            "lastName": "I",
+            "country": "RO",
+            "code": "iuliam6435",
+            "username": "iuliam6435"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.sender",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Iulia Maria I"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cbda89-36ae-ae17-a922-77a22a9a75cf",
+        "legId": "c321919c-1e25-46d9-95ad-ed92afa6c60c",
+        "type": "CARD_PAYMENT",
+        "state": "DECLINED",
+        "startedDate": 1657526921000,
+        "updatedDate": 1657526921608,
+        "createdDate": 1657526921608,
+        "currency": "RON",
+        "amount": -1080,
+        "fee": 0,
+        "description": "bolt.eu/cardcheck",
+        "reason": "insufficient_balance",
+        "tag": "transport",
+        "category": "transport",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [
+            {
+                "type": "FAQ",
+                "payload": {
+                    "key": "question.why-has-my-card-payment-been-declined"
+                }
+            }
+        ],
+        "countryCode": "EE",
+        "rate": 1,
+        "merchant": {
+            "id": "498750000949371",
+            "merchantId": "78c23116-39ff-4ebf-a311-344dbc9d507d",
+            "scheme": "VISA",
+            "name": "Bolt",
+            "mcc": "4121",
+            "category": "transport",
+            "city": "Tallinn",
+            "country": "EE",
+            "address": "Tallinn, EE",
+            "state": "EE"
+        },
+        "counterpart": {
+            "amount": -1080,
+            "currency": "RON"
+        },
+        "card": {
+            "id": "0dcc1752-3431-4a54-a696-4a0df9f35481",
+            "lastFour": "4398",
+            "disposable": false,
+            "credit": false,
+            "pro": false
+        },
+        "ratings": {
+            "userRating": 0
+        },
+        "eCommerce": true,
+        "chargebackEligible": false,
+        "localisedDescription": {
+            "key": "transaction.description.card.payment.to.merchant",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bolt"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cb26b7-14ef-a8d2-b168-3379f0914a71",
+        "legId": "ae7c5188-f037-446b-a7de-1381e342a444",
+        "type": "CARD_PAYMENT",
+        "state": "COMPLETED",
+        "startedDate": 1657480887000,
+        "updatedDate": 1657655126208,
+        "completedDate": 1657655126205,
+        "createdDate": 1657480887388,
+        "currency": "RON",
+        "amount": -1699,
+        "fee": 0,
+        "balance": 23089,
+        "description": "Bogata Comexim",
+        "tag": "restaurants",
+        "category": "restaurants",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "countryCode": "RO",
+        "rate": 1,
+        "merchant": {
+            "id": "0660B6573601RON",
+            "merchantId": "75971362-e123-4a39-9812-d17f13451c0f",
+            "scheme": "VISA",
+            "name": "Bogata Comexim",
+            "mcc": "5812",
+            "category": "restaurants",
+            "city": "Cluj Napoca",
+            "country": "RO",
+            "address": "Cluj Napoca, RO",
+            "state": "RO"
+        },
+        "counterpart": {
+            "amount": -1699,
+            "currency": "RON"
+        },
+        "card": {
+            "id": "0dcc1752-3431-4a54-a696-4a0df9f35481",
+            "lastFour": "4398",
+            "disposable": false,
+            "credit": false,
+            "pro": false
+        },
+        "ratings": {
+            "userRating": 0
+        },
+        "chargebackEligible": true,
+        "localisedDescription": {
+            "key": "transaction.description.card.payment.to.merchant",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bogata Comexim"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cb269f-4dd9-ac57-993b-e67355c73a34",
+        "legId": "974e770f-3758-4224-92a4-ac66e6ac6f5c",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657480863030,
+        "updatedDate": 1657480863030,
+        "completedDate": 1657480863030,
+        "createdDate": 1657480863030,
+        "currency": "RON",
+        "amount": -359,
+        "fee": 0,
+        "balance": 0,
+        "description": "To RON",
+        "tag": "savings",
+        "category": "savings",
+        "account": {
+            "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+            "type": "SAVINGS"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "recipient": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cb269f-4dd9-ac57-993b-e67355c73a34",
+        "legId": "9563a9c4-9917-418f-95ca-740f8ab4444a",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657480863030,
+        "updatedDate": 1657480863030,
+        "completedDate": 1657480863030,
+        "createdDate": 1657480863030,
+        "currency": "RON",
+        "amount": 359,
+        "fee": 0,
+        "balance": 19782,
+        "description": "From RON Bani de rontanele",
+        "tag": "savings",
+        "category": "savings",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "sender": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cb122b-4c10-a765-be06-bf3ca9837467",
+        "legId": "d38f509e-7b3d-4fc2-b2e9-a4e773690119",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657475627657,
+        "updatedDate": 1657475627764,
+        "completedDate": 1657475627764,
+        "createdDate": 1657475627764,
+        "currency": "RON",
+        "amount": 1000,
+        "fee": 0,
+        "balance": 19423,
+        "description": "From Patrick George Szeleczki",
+        "tag": "transfers",
+        "category": "transfers",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "sender": {
+            "id": "3197d192-0291-42b4-a763-d7207b263175",
+            "firstName": "Patrick George",
+            "lastName": "S",
+            "country": "RO",
+            "code": "patricg2g5",
+            "username": "patricg2g5"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.sender",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Patrick George S"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cb1169-053f-a1cd-a66a-c9e86ebb7728",
+        "legId": "affd7b4a-1460-4963-8390-dd852a4e08ac",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657475433973,
+        "updatedDate": 1657475433973,
+        "completedDate": 1657475433973,
+        "createdDate": 1657475433973,
+        "currency": "RON",
+        "amount": -300,
+        "fee": 0,
+        "balance": 18423,
+        "description": "To RON Bani de rontanele",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62cb1169-2dd5-acf9-8f1a-ed03b555c0f6",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "recipient": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cb1169-053f-a1cd-a66a-c9e86ebb7728",
+        "legId": "7549b471-e7bd-4e18-8ae8-da9dc3a72626",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657475433973,
+        "updatedDate": 1657475433973,
+        "completedDate": 1657475433973,
+        "createdDate": 1657475433973,
+        "currency": "RON",
+        "amount": 300,
+        "fee": 0,
+        "balance": 359,
+        "description": "From RON",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62cb1169-2dd5-acf9-8f1a-ed03b555c0f6",
+        "account": {
+            "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+            "type": "SAVINGS"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "sender": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cb1169-2dd5-acf9-8f1a-ed03b555c0f6",
+        "legId": "588ff810-fb19-49c3-ba65-9764722aa3ec",
+        "type": "CARD_PAYMENT",
+        "state": "COMPLETED",
+        "startedDate": 1657475433000,
+        "updatedDate": 1657655214386,
+        "completedDate": 1657655214384,
+        "createdDate": 1657475433887,
+        "currency": "RON",
+        "amount": -1700,
+        "fee": 0,
+        "balance": 18340,
+        "description": "Revital",
+        "tag": "entertainment",
+        "category": "entertainment",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "countryCode": "RO",
+        "rate": 1,
+        "merchant": {
+            "id": "313095637601RON",
+            "merchantId": "e4e54cf6-f17c-4821-bff1-0cbd7af5d4c4",
+            "scheme": "VISA",
+            "name": "Revital",
+            "mcc": "7995",
+            "category": "entertainment",
+            "city": "Cluj-napoca",
+            "country": "RO",
+            "address": "00000, Cluj-napoca, RO",
+            "state": "RO",
+            "postcode": "00000"
+        },
+        "counterpart": {
+            "amount": -1700,
+            "currency": "RON"
+        },
+        "card": {
+            "id": "0dcc1752-3431-4a54-a696-4a0df9f35481",
+            "lastFour": "4398",
+            "disposable": false,
+            "credit": false,
+            "pro": false
+        },
+        "ratings": {
+            "userRating": 0
+        },
+        "chargebackEligible": true,
+        "localisedDescription": {
+            "key": "transaction.description.card.payment.to.merchant",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Revital"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cb1164-f220-a148-8915-14403e81f3c2",
+        "legId": "12d01278-a1f9-42c3-a734-1c70a5ac6981",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657475428355,
+        "updatedDate": 1657475428355,
+        "completedDate": 1657475428356,
+        "createdDate": 1657475428355,
+        "currency": "RON",
+        "amount": -1200,
+        "fee": 0,
+        "balance": 59,
+        "description": "To RON",
+        "tag": "savings",
+        "category": "savings",
+        "account": {
+            "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+            "type": "SAVINGS"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "recipient": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cb1164-f220-a148-8915-14403e81f3c2",
+        "legId": "7aa243d9-e33f-47ac-bc87-893b53b88d9e",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657475428355,
+        "updatedDate": 1657475428355,
+        "completedDate": 1657475428356,
+        "createdDate": 1657475428355,
+        "currency": "RON",
+        "amount": 1200,
+        "fee": 0,
+        "balance": 18723,
+        "description": "From RON Bani de rontanele",
+        "tag": "savings",
+        "category": "savings",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "sender": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cb113f-bae9-a9ef-805c-b2086ee72641",
+        "legId": "1736eee3-adb1-499a-b170-7411d68ba25e",
+        "type": "CARD_PAYMENT",
+        "state": "DECLINED",
+        "startedDate": 1657475391000,
+        "updatedDate": 1657475391269,
+        "createdDate": 1657475391269,
+        "currency": "RON",
+        "amount": -1700,
+        "fee": 0,
+        "description": "Revital",
+        "reason": "insufficient_balance",
+        "tag": "entertainment",
+        "category": "entertainment",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [
+            {
+                "type": "FAQ",
+                "payload": {
+                    "key": "question.why-has-my-card-payment-been-declined"
+                }
+            }
+        ],
+        "countryCode": "RO",
+        "rate": 1,
+        "merchant": {
+            "id": "313095637601RON",
+            "merchantId": "b3d00b47-33fb-4183-9356-0d197c71effb",
+            "scheme": "VISA",
+            "name": "Revital",
+            "mcc": "7995",
+            "category": "entertainment",
+            "city": "Cluj-Napoca",
+            "country": "RO",
+            "address": "Cluj-Napoca, RO",
+            "state": "RO"
+        },
+        "counterpart": {
+            "amount": -1700,
+            "currency": "RON"
+        },
+        "card": {
+            "id": "0dcc1752-3431-4a54-a696-4a0df9f35481",
+            "lastFour": "4398",
+            "disposable": false,
+            "credit": false,
+            "pro": false
+        },
+        "ratings": {
+            "userRating": 0
+        },
+        "chargebackEligible": false,
+        "localisedDescription": {
+            "key": "transaction.description.card.payment.to.merchant",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Revital"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cb0a37-47b4-a0ac-90f5-e6de4c635bcb",
+        "legId": "795fe1b3-1f42-4d24-8e69-95c8bcc3f716",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657473591425,
+        "updatedDate": 1657473591425,
+        "completedDate": 1657473591425,
+        "createdDate": 1657473591425,
+        "currency": "RON",
+        "amount": -350,
+        "fee": 0,
+        "balance": 17523,
+        "description": "To RON Bani de rontanele",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62cb0a37-95ff-a545-a5f9-a440a214d0d2",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "recipient": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cb0a37-47b4-a0ac-90f5-e6de4c635bcb",
+        "legId": "84891565-461b-4e52-ba12-0cffd041e880",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657473591425,
+        "updatedDate": 1657473591425,
+        "completedDate": 1657473591425,
+        "createdDate": 1657473591425,
+        "currency": "RON",
+        "amount": 350,
+        "fee": 0,
+        "balance": 1259,
+        "description": "From RON",
+        "tag": "savings",
+        "category": "savings",
+        "relatedTransactionId": "62cb0a37-95ff-a545-a5f9-a440a214d0d2",
+        "account": {
+            "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+            "type": "SAVINGS"
+        },
+        "suggestions": [],
+        "autoInvest": {
+            "target": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS_POCKET"
+            },
+            "strategy": "SPARE_CHANGE"
+        },
+        "rate": 1,
+        "sender": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.to.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cb0a37-95ff-a545-a5f9-a440a214d0d2",
+        "legId": "e0badef9-7db9-4ed7-a853-23f15d524b5b",
+        "type": "CARD_PAYMENT",
+        "state": "COMPLETED",
+        "startedDate": 1657473591000,
+        "updatedDate": 1657655143246,
+        "completedDate": 1657655143245,
+        "createdDate": 1657473591332,
+        "currency": "RON",
+        "amount": -1150,
+        "fee": 0,
+        "balance": 21939,
+        "description": "Revital",
+        "tag": "entertainment",
+        "category": "entertainment",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "countryCode": "RO",
+        "rate": 1,
+        "merchant": {
+            "id": "313095637601RON",
+            "merchantId": "e4e54cf6-f17c-4821-bff1-0cbd7af5d4c4",
+            "scheme": "VISA",
+            "name": "Revital",
+            "mcc": "7995",
+            "category": "entertainment",
+            "city": "Cluj-napoca",
+            "country": "RO",
+            "address": "00000, Cluj-napoca, RO",
+            "state": "RO",
+            "postcode": "00000"
+        },
+        "counterpart": {
+            "amount": -1150,
+            "currency": "RON"
+        },
+        "card": {
+            "id": "0dcc1752-3431-4a54-a696-4a0df9f35481",
+            "lastFour": "4398",
+            "disposable": false,
+            "credit": false,
+            "pro": false
+        },
+        "ratings": {
+            "userRating": 0
+        },
+        "chargebackEligible": true,
+        "localisedDescription": {
+            "key": "transaction.description.card.payment.to.merchant",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Revital"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cb09fa-74bd-a050-a8c0-acbcf3774a89",
+        "legId": "c9649996-46f8-435d-b3ed-8509dc18e4a8",
+        "type": "CARD_PAYMENT",
+        "state": "COMPLETED",
+        "startedDate": 1657473530000,
+        "updatedDate": 1657473530952,
+        "completedDate": 1657473530953,
+        "createdDate": 1657473530952,
+        "currency": "RON",
+        "amount": 0,
+        "fee": 0,
+        "balance": 17873,
+        "description": "Google *temporary Hold",
+        "tag": "services",
+        "category": "services",
+        "logo": "google",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [
+            {
+                "type": "FAQ",
+                "payload": {
+                    "key": "question.what-is-card-verification"
+                }
+            }
+        ],
+        "countryCode": "GB",
+        "rate": 1,
+        "merchant": {
+            "id": "188830000020254",
+            "merchantId": "b0864ca2-69b2-45e5-b710-46a2d0b4699b",
+            "scheme": "VISA",
+            "name": "Google",
+            "mcc": "7399",
+            "category": "services",
+            "city": "g.co/helppay#",
+            "country": "GB",
+            "address": "g.co/helppay#, GB",
+            "state": "GB",
+            "bgColor": "#000000"
+        },
+        "counterpart": {
+            "amount": 0,
+            "currency": "RON"
+        },
+        "card": {
+            "id": "0dcc1752-3431-4a54-a696-4a0df9f35481",
+            "lastFour": "4398",
+            "disposable": false,
+            "credit": false,
+            "pro": false
+        },
+        "cardVerification": true,
+        "ratings": {
+            "userRating": 0
+        },
+        "chargebackEligible": false,
+        "localisedDescription": {
+            "key": "transaction.description.card.payment.to.merchant",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Google"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cb09c7-0682-a294-bc63-8f4adc11b76d",
+        "legId": "1bc4a383-9bf1-4eee-8ea5-57dade47e364",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657473479251,
+        "updatedDate": 1657473479251,
+        "completedDate": 1657473479251,
+        "createdDate": 1657473479251,
+        "currency": "RON",
+        "amount": -2000,
+        "fee": 0,
+        "balance": 909,
+        "description": "To RON",
+        "tag": "savings",
+        "category": "savings",
+        "account": {
+            "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+            "type": "SAVINGS"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "recipient": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cb09c7-0682-a294-bc63-8f4adc11b76d",
+        "legId": "187660c7-c50c-4f74-87a0-ca9fc0d2a834",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657473479251,
+        "updatedDate": 1657473479251,
+        "completedDate": 1657473479251,
+        "createdDate": 1657473479251,
+        "currency": "RON",
+        "amount": 2000,
+        "fee": 0,
+        "balance": 17873,
+        "description": "From RON Bani de rontanele",
+        "tag": "savings",
+        "category": "savings",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "sender": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cb02d7-47da-a82f-9c23-5c32357fc801",
+        "legId": "60ca7e53-8356-4e03-904a-4d2e18f5eb70",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657471703617,
+        "updatedDate": 1657471703617,
+        "completedDate": 1657471703618,
+        "createdDate": 1657471703617,
+        "currency": "RON",
+        "amount": -1000,
+        "fee": 0,
+        "balance": 2909,
+        "description": "To RON",
+        "tag": "savings",
+        "category": "savings",
+        "account": {
+            "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+            "type": "SAVINGS"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "recipient": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+                "type": "CURRENT"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cb02d7-47da-a82f-9c23-5c32357fc801",
+        "legId": "7927b523-d26a-48d0-9e7b-b3efd15b8864",
+        "type": "TRANSFER",
+        "state": "COMPLETED",
+        "startedDate": 1657471703617,
+        "updatedDate": 1657471703617,
+        "completedDate": 1657471703618,
+        "createdDate": 1657471703617,
+        "currency": "RON",
+        "amount": 1000,
+        "fee": 0,
+        "balance": 15873,
+        "description": "From RON Bani de rontanele",
+        "tag": "savings",
+        "category": "savings",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [],
+        "rate": 1,
+        "sender": {
+            "id": "da2c7b20-47b1-47ef-9651-14302fda4038",
+            "account": {
+                "id": "8a094f34-27e3-416d-b5e9-ab32a65ee90b",
+                "type": "SAVINGS"
+            }
+        },
+        "vault": {
+            "id": "366cb2ce-e9dd-49f8-9724-aecd0bf826d9"
+        },
+        "localisedDescription": {
+            "key": "transaction.description.internal.transfer.from.vault",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "Bani de rontanele"
+                }
+            ]
+        }
+    },
+    {
+        "id": "62cb02a5-783f-a46c-93d6-4e761d022a8a",
+        "legId": "219ecf07-ded0-4072-82de-98e998bb8610",
+        "type": "CARD_PAYMENT",
+        "state": "DECLINED",
+        "startedDate": 1657471653000,
+        "updatedDate": 1657471653531,
+        "createdDate": 1657471653531,
+        "currency": "RON",
+        "amount": -300,
+        "fee": 0,
+        "description": "Ctp Cluj Napoca",
+        "reason": "insufficient_balance",
+        "tag": "transport",
+        "category": "transport",
+        "account": {
+            "id": "cc48a9bb-3981-459a-b9c5-8fac9dd0d333",
+            "type": "CURRENT"
+        },
+        "suggestions": [
+            {
+                "type": "FAQ",
+                "payload": {
+                    "key": "question.why-has-my-card-payment-been-declined"
+                }
+            }
+        ],
+        "countryCode": "RO",
+        "rate": 1,
+        "merchant": {
+            "id": "3L1170010000",
+            "merchantId": "96f97f46-71ad-4996-b429-de5c27b366c3",
+            "scheme": "VISA",
+            "name": "CTP Cluj-Napoca",
+            "mcc": "4111",
+            "category": "transport",
+            "city": "Cluj-Napoca",
+            "country": "RO",
+            "address": "Bulevardul 21 Decembrie 1989, 128-130, 400604, Cluj-Napoca, RO",
+            "state": "RO",
+            "postcode": "400604"
+        },
+        "counterpart": {
+            "amount": -300,
+            "currency": "RON"
+        },
+        "card": {
+            "id": "0dcc1752-3431-4a54-a696-4a0df9f35481",
+            "lastFour": "4398",
+            "disposable": false,
+            "credit": false,
+            "pro": false
+        },
+        "ratings": {
+            "userRating": 0
+        },
+        "chargebackEligible": false,
+        "localisedDescription": {
+            "key": "transaction.description.card.payment.to.merchant",
+            "params": [
+                {
+                    "key": "name",
+                    "value": "CTP Cluj-Napoca"
+                }
+            ]
+        }
+    }
+]
